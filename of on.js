@@ -81,3 +81,76 @@ function bikenam(){
     console.log("super")
     console.log("star")
 }
+
+
+    
+var answer = (function () {
+    let privetvalue = 2;
+
+   return {
+   // getter ye zad tr compny likhti hy es ka mattlab value ko print karna 
+       getter: function(){
+        console.log(privetvalue)
+       },
+       setter: function(value){
+           privetvalue = value  // es my jo ham value dally gy vo getter k value k satth plus ho kar ay ge consol my dek lo  
+       }
+   };
+})()
+
+var b1 = new superbeskit();
+var b2 = new superbeskit();
+var b3 = new superbeskit();
+
+function superbeskit(){
+    this.color = 'yello';
+    this.height = 2;
+    this.width = 2 ;
+    this.haldy = 'zara se';
+    // ab ham isy new keword my   likhy gy
+}
+
+function bikenam(){
+    console.log("honda")
+    console.log("unique")
+    console.log("super")
+    console.log("star")
+}
+
+
+
+
+    
+var answer = (function () {
+    let privetvalue = 2;
+
+   return {
+   // getter ye zad tr compny likhti hy es ka mattlab value ko print karna 
+       getter: function(){
+        console.log(privetvalue)
+       },
+       setter: function(value){
+           privetvalue = value  // es my jo ham value dally gy vo getter k value k satth plus ho kar ay ge consol my dek lo  
+       }
+   };
+})()
+
+var b1 = new superbeskit();
+var b2 = new superbeskit();
+var b3 = new superbeskit();
+
+function superbeskit(){
+    this.color = 'yello';
+    this.height = 2;
+    this.width = 2 ;
+    this.haldy = 'zara se';
+    // ab ham isy new keword my   likhy gy
+}
+
+function bikenam(){
+    console.log("honda")
+    console.log("unique")
+    console.log("super")
+    console.log("star")
+}
+
